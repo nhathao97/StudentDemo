@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.content {
+  height: 670px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header{
+  height: 100px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.footer{
+  height: 100px;
+}
+.nav {
+  display: block;
+  width: 100%;
+}
+.button-row{
+  margin-bottom: 10px;
+}
+.sidebar {
+  width: 100%;
+  border-right: 2px solid rgb(29, 26, 26);
+  background-image: url('sidebar-background.jpg');
+}
+.logo h1{
+  margin: auto; 
   color: white;
+  margin-bottom: 50px;
+
 }
 
-.App-link {
-  color: #61dafb;
-}
+.sidebar :link:hover{
+  display: block;
+  background-color:#ffffff;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.sidebar :link {
+  height: 50px;
+  text-decoration: none;
+  margin: auto;
+  float: left;
+  width: 100%;
+}
+.sidebar a{
+  color: #ffffff;
+
+}
+.sidebar a:hover{
+  color: black;
+}
+.footer {
+  background-color: rgb(112, 108, 108);
+}
+.bt{
+  background-color: black;
+  margin: 20px;
+}
+.table {
+  background-color:white;
+}
+.content{
+  background-image: url(content-background.jpg);
+}
+.button-menu {
+  margin-left: 10px;
+}
+.my_btn{
+  float: right;
+}
+.pagination {
+  margin-top: 20px;
+}
+.list-student{
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  color: blue;
 }
